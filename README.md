@@ -1,3 +1,5 @@
+👨‍💻 Thông tin cá nhân (Profile.cs)
+
 using System;
 
 namespace GithubProfile
