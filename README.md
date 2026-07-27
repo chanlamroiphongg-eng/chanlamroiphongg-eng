@@ -1,16 +1,46 @@
-## Hi there 👋
+👨‍💻 Thông tin cá nhân (Profile.js)
 
-<!--
-**chanlamroiphongg-eng/chanlamroiphongg-eng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Developer {
+  constructor() {
+    this.name = "Hồng Phong";
+    this.username = "chanlamroiphongg-eng";
+    this.location = "Việt Nam 🇻🇳";
+  }
 
-Here are some ideas to get you started:
+  getInterests() {
+    return ["Coding", "Music 🎵", "Technology"];
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  getMotivation() {
+    return "Không ngừng học hỏi và phát triển mỗi ngày ✨";
+  }
+}
+
+const me = new Developer();
+
+
+🛠️ Kỹ năng & Công nghệ
+
+Những công cụ tôi yêu thích và tìm hiểu
+
+
+
+
+
+📊 Phân tích hoạt động
+
+Dữ liệu của tôi trên GitHub
+
+
+
+
+
+🐍 Hành trình Đóng góp
+
+Hiệu ứng tự động cập nhật mỗi ngày
+
+
+
+
+
+📬 Kết nối với tôi
