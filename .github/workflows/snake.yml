@@ -1,8 +1,8 @@
 name: Generate Datas
 
 on:
-schedule: # Execute every 12 hours
-- cron: "* */12 * * *"
+schedule:
+- cron: "0 */12 * * *"
 workflow_dispatch:
 push:
 branches:
@@ -12,9 +12,11 @@ jobs:
 build:
 name: Jobs to update datas
 runs-on: ubuntu-latest
+permissions:
+contents: write
 steps:
-# Snake Animation
-- uses: Platane/snk@v3
+- name: Generate Snake Animation
+uses: Platane/snk@v3
 with:
 github_user_name: ${{ github.repository_owner }}
 outputs: |
@@ -23,8 +25,7 @@ dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 env:
 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # Push the changes
-  - name: push github-contribution-grid-snake.svg to the output branch
+  - name: Push to output branch
     uses: crazy-max/ghaction-github-pages@v3.1.0
     with:
       target_branch: output
