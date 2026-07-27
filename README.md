@@ -1,5 +1,3 @@
-👨‍💻 Thông tin cá nhân (Profile.cs)
-
 using System;
 
 namespace GithubProfile
@@ -22,7 +20,6 @@ namespace GithubProfile
             Console.WriteLine("Biến mọi thao tác thủ công thành tự động! ✨");
         }
     }
-}
 
 
 🛠️ Kỹ năng & Công nghệ
@@ -43,7 +40,7 @@ Dữ liệu của tôi trên GitHub
 
 🐍 Hành trình Đóng góp
 
-Hiệu ứng tự động cập nhật mỗi ngày
+Hiệu ứng tự động cập nhật mỗi ngày (Cần chạy file snake.yml)
 
 
 
