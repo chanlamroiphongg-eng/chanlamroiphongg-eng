@@ -1,27 +1,33 @@
-👨‍💻 Thông tin cá nhân (Profile.js)
+👨‍💻 Thông tin cá nhân (Profile.cs)
 
-class Developer {
-  constructor() {
-    this.name = "Hồng Phong";
-    this.username = "chanlamroiphongg-eng";
-    this.location = "Việt Nam 🇻🇳";
-  }
+using System;
 
-  getInterests() {
-    return ["Coding", "Music 🎵", "Technology"];
-  }
+namespace GithubProfile
+{
+    class Developer
+    {
+        public string Name = "Hồng Phong";
+        public string Username = "chanlamroiphongg-eng";
+        public string Location = "Việt Nam 🇻🇳";
+        public string Speciality = "Automation Tools (Facebook, Zalo, MMO, ...)";
 
-  getMotivation() {
-    return "Không ngừng học hỏi và phát triển mỗi ngày ✨";
-  }
+        public string[] GetSkills()
+        {
+            return new string[] { "C#", ".NET", "WinForms/WPF", "Selenium", "API" };
+        }
+
+        public void ExecuteDailyRoutine()
+        {
+            Console.WriteLine("Tối ưu hóa hệ thống... 🚀");
+            Console.WriteLine("Biến mọi thao tác thủ công thành tự động! ✨");
+        }
+    }
 }
-
-const me = new Developer();
 
 
 🛠️ Kỹ năng & Công nghệ
 
-Những công cụ tôi yêu thích và tìm hiểu
+Hệ sinh thái và công cụ tôi sử dụng để build tools
 
 
 
